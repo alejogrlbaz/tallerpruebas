@@ -20,7 +20,7 @@ test("multiplies two numbers", () => {
 });
 
 test("divides two numbers", () => {
-  expect(divide(6, 2)).toBe(9);
+  expect(divide(6, 2)).toBe(4);
   expect(divide(-6, 2)).toBe(-3);
   expect(divide(6, -2)).toBe(-3);
   expect(() => divide(6, 0)).toThrow("Division by zero is not allowed");
